@@ -1,0 +1,69 @@
+/*div.veiviser {
+    height: 80px;
+    width: 455px;
+    padding: 10px;
+	margin-bottom: 13px;
+
+	background-color: #ECECEC;
+    border: 1px solid #CCCCCC;
+    border-radius: 7px 7px 7px 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px; 
+}*/
+
+select.veiviser{
+	padding: 3px;
+	margin-right: 5px;
+	width: 133px;
+	font-size: 11px;
+}
+
+#chapterlinks{
+	line-height: 30px;
+	margin-bottom: 3px;
+	font-size: 11px;
+	width: 399px;
+}
+
+#chapterlinks a{
+	background-image: url('images/play.png');
+	background-repeat: no-repeat;
+	background-position: left center;
+	display:block;
+	padding-left: 20px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+a.veiviser:link,
+a.veiviser:visited,
+a.veiviser:hover{
+	margin: 0px;
+	padding-left: 10px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #3a3a3a;
+	font-size: 14px;
+	font-family: Helvetica;
+}
+
+option.veiviser{
+	padding-bottom: 2px;
+	padding-top: 1px;
+}
+
+img.veiviser{
+	padding-left: 4px;
+	padding-top: 2px;
+}
+
+.link_box{
+	display: inline-block;
+}
+
+div.veiviser h1#veiviser_header{
+	font-family: "Helvetica Neue", Helvetica, Arial, "Nimbus Sans L", sans-serif;
+	color: #818181;
+	font-size: 22px;
+	margin-left: 5px;
+}

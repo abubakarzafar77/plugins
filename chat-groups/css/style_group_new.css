@@ -1,0 +1,262 @@
+
+#new_group_div{
+        background: #F3F3F3;
+        float: left;
+        margin: 0;
+        width: 100%;
+        position: relative;
+        display: none;
+        border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+}
+.new_group_tbl{
+    margin: 10px;
+    border: none;
+}
+.new_group_tbl td{
+    border: none;
+    padding: 5px;
+    width: 70%;
+}
+.new_group_tbl th{
+    padding: 5px; 
+    border: none;
+    width: 25%;
+}
+
+.new_group_hd {
+  color: #0C0003 !important;
+  font-family: arial;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 26px 0 0 18px !important;
+}
+
+#ui-datepicker-div{
+    z-index: 1000000 !important;
+}
+#slider-range-max,#user_login,.group_descn{
+    width: 90%;
+}
+#create_group{
+    margin:5px 0 0 14px;
+    float: left;
+    clear: left;
+	font-size:13px !important;
+}
+#add_invites{
+    width: 95px;
+    height: 50px;
+    margin: 0 5px 0 5px;
+    padding: 0 !important;
+    height: 30px !important;
+    color: #fff !important ;
+	font-size:13px !important;
+}
+.invite_div {
+  background: none repeat scroll 0 0 #D9D9D9;
+  border-radius: 3px 3px 3px 3px;
+  float: left;
+  margin: 12px 0 0 18px;
+  padding: 10px 0 10px 10px;
+  width: 788px;
+}
+
+
+
+.invite_div input[type="text"] {
+  background: none repeat scroll 0 0 #FFFFFF;
+  border: 0 none;
+  border-radius: 3px 3px 3px 3px;
+  box-shadow: none;
+  display: inline-block;
+  float: left;
+  height: 30px;
+  line-height: 30px;
+  margin: 0 8px 0 8px !important;
+  padding: 0 0 0 11px;
+  width: 145px;
+  font-size:13px !important;
+}
+.invite_div input[type="button"] {
+  border: none !important; display: inline-block;padding: 0px 0 0 10px; float: none; margin: 0px; background: #666; border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; }
+.invite_div span {
+  color: #0B0509;
+  float: left;
+  font-size: 13px;
+  margin: 7px 0 0 3px;
+  cursor:pointer;
+}
+#invites{
+    margin: 0 5px 0 5px;
+}
+
+#invites_list {
+  clear: both;
+  color: #909090;
+  float: left;
+  font-size: 12px;
+  margin: 12px 0 12px 18px;
+  padding: 0 0 0 15px;
+  width: auto;
+}
+#invites_list .on_list{
+    float: left;
+    margin: 0 10px 0 0;
+    color:#999 !important; 
+}
+.invite_email{
+    float: left;
+    margin: 0 7px 0 0;
+    color:#999 !important; 
+}
+.remove_invite_email{
+	color:#999 !important;
+}
+.orange_btn_02{
+    background: url("images/creategroup.png") no-repeat;
+    width:224px;
+    height: 54px;
+    float:left;
+    border: none;
+    margin: 0 0 0 19px !important;
+    cursor: pointer;
+}
+
+table.new_group_tbl tr td input {
+  background: none repeat scroll 0 0 #FFFFFF;
+  border: 0 none;
+  border-radius: 3px 3px 3px 3px;
+  box-shadow: none;
+  height: 30px;
+  line-height: 30px;
+  margin: 0;
+  padding: 0 14px;
+  width: 193px;
+  color:#999 !important;
+  font-family:Arial, Helvetica, sans-serif !important;
+  font-size:13px !important;
+}
+table.new_group_tbl tr td select {
+  background: none repeat scroll 0 0 #FFFFFF;
+  border: 0 none;
+  border-radius: 3px 3px 3px 3px;
+  box-shadow: none;
+  margin: 7px 0 0;
+  padding: 5px;
+  width: 221px;
+  color:#999 !important;
+  font-family:Arial, Helvetica, sans-serif !important;
+  font-size:13px;
+}
+table.new_group_tbl tr td textarea {
+  border-bottom: medium none;
+  height: 102px;
+  margin: 9px 0 0;
+  padding: 7px 0 0 14px;
+  width: 470px;
+  background:#FFF;
+  box-shadow: none;
+  border:none;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  color:#999 !important;
+  font-family:Arial, Helvetica, sans-serif !important;
+  font-size:13px !important;
+}
+table.new_group_tbl tr td textarea { border-bottom: none; }
+table.new_group_tbl tr td{border-top: none !important; padding: 6px 17px !important;}
+table.new_group_tbl{border: none !important; margin: 12px 0 0 !important;}
+.max_style{
+    color: #999;
+    display: inline-block;
+    font-size: 13px !important;
+    margin: 15px 0 0 15px; 
+}
+
+.nickname_style {
+  clear: left;
+  float: left;
+  margin: 10px 0 0 0px;
+}
+
+.nickname_style input{
+      background: none repeat scroll 0 0 #FFFFFF;
+    border: 0 none;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: none;
+    height: 30px;
+    line-height: 30px;
+    margin: 0;
+    padding: 0 14px;
+    width: 193px; 
+}
+
+.cross_sis {
+  position: absolute;
+  right: 15px;
+  top: 20px;
+  cursor: pointer;
+}
+
+.sumbit_btn{
+   float: left;
+   width: 100%;
+   margin:12px 0 20px !important;
+}
+
+.text_style_new {
+    color: #909090;
+    float: left;
+    font-size: 13px;
+    margin: 14px 0 0 10px;
+    width: 75%;
+}
+
+/* message styling */
+.info, .success, .warning, .error, .validation {
+border: 1px solid;
+margin: 10px 0px;
+padding:15px 10px 15px 50px;
+background-repeat: no-repeat;
+background-position: 10px center;
+}
+.info {
+color: #00529B;
+background-color: #BDE5F8;
+}
+.success {
+color: #4F8A10;
+background-color: #DFF2BF;
+}
+.warning {
+color: #9F6000;
+background-color: #FEEFB3;
+}
+.error {
+color: #D8000C;
+background-color: #FFBABA;
+}
+.create_study_group { 
+	background: url('images/btn-orange.png') no-repeat center center;
+	background-size: 140px 34px;
+	box-shadow: 0;
+	border: 0;
+	cursor: pointer;
+	margin: 0 auto;
+	height: 32px;
+	color: white !important;
+	width: 140px;
+	line-height:32px;
+	text-align:center;
+	font-size:14px;
+	display:block;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+}
+/* message styling */

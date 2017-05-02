@@ -1,0 +1,82 @@
+<?php
+
+$matematikk1p = array(  '1 Tall og algebra' => array('1.01 Regning med hele tall' => array(0 => array('url' => '1p/teori-1', 'title' => 'Tallregning')),
+                        
+					                          
+					                      		'1.02 Brøk' => array(0 => array('url' => '1p/teori-1-3', 'title' => 'Brøk')),
+					                      
+					                      '1.03 Store og små tall' => array(0 => array('url' => '1p/teori-1-4', 'title' => 'Tierpotenser og standarform')),
+					                      
+					                      '1.04 Bokstavuttrykk' => array(0 => array('url' => '1p/teori-1-47', 'title' => 'Bokstavregning')),
+					                      
+					                      '1.05 Likninger' => array(0 => array('url' => '1p/teori-2-28', 'title' => 'Likninger ')),
+					                      
+					                      '1.06 Formler' => array(0 => array('url' => '1p/teori-1-48', 'title' => 'Regning med formler')),
+					                      '1.07 Hverdagsmatematikk' => array(0 => array('url' => '1p/teori-10', 'title' => 'Overslagsregning ')),
+					                      ),
+					                        
+                        
+          					'2 Økonomi' => array(
+				                    
+				                    '2.01 Forhold' => array(0 => array('url' => '1p/teori-1-49', 'title' => 'Forholdsregning ')),
+				                    
+				                    '2.03 Prisindeks' => array(0 => array('url' => '1p/teori-1-64', 'title' => 'Prisindekser ')),
+				                    
+				                    '2.04 Konsumprisindeks. Reallønn' =>  array(0 => array('url' => '1p/teori-1-65', 'title' => 'Konsumprisindeks '), 1 => array('url' => '1p/teori-1-66', 'title'=> 'Kroneverdi og reallønn ')),
+				                    
+				                    '2.05 Lønnsutregning.' => array(0 => array('url' => '1p/teori-1-67', 'title' => 'Bruttolønn ')),
+				                    
+				                    '2.06 Skattetrekk. Ferielønn' =>  array(0 => array('url' => '1p/teori-1-68', 'title' => 'Feriepenger '), 1 => array('url' => '1p/teori-1-69', 'title'=> 'Skattetrekk og utbetalt lønn')),				                    
+				                    '2.08 Utregning av skatt' => array(0 => array('url' => '1p/teori-1-70', 'title' => 'Merverdiavgift ')),
+				                    
+				                    '2.09 Forbrukerkalkulatorer' =>  array(0 => array('url' => '1p/teori-1-71', 'title' => 'Sparing'), 1 => array('url' => '1p/teori-1-72', 'title'=> 'Lån')),
+				                    
+				                  ),
+                        
+				          '3 Geometri' => array(
+				                  '3.01 Lengde og areal' => array(0 => array('url' => '1p/teori-1-73', 'title' => 'Lengde og areal')),				                  
+				                  '3.02 Formlikhet' => array(0 => array('url' => '1p/teori-1-50', 'title' => 'Formlikhet')),
+				                  
+				                  '3.03 Areal og omkrets. ' => array(0 => array('url' => '1p/teori-1-73', 'title' => 'Lengde og areal')),
+				                  
+				                  '3.04 Rettvinklede trekanter. Pytagorassetningen' => array(0 => array('url' => '1p/teori-1-73', 'title' => 'Pytagoras')),
+				                  
+				                  '3.05 Arbeidstegninger og kart' => array(0 => array('url' => '1p/teori-1-74', 'title' => 'Målestokk og kart')),
+				                  
+				                  '3.06 Volum og volumenheter. ' => array(0 => array('url' => '1p/teori-1-75', 'title' => 'Volum og overflate')),
+				                  
+				                  '3.07 Overflate av romfigurer' => array(0 => array('url' => '1p/teori-1-75', 'title' => 'Volum og overflate')),
+				                  
+				                  '3.08 Perspektivtegning' => array(0 => array('url' => '1p/teori-1-76', 'title' => 'Perspektivtegning')),
+				                  
+				                  ),
+                        
+			          '4 Sannsynlighet' => array(
+			                  '4.01 Sannsynlighet og relativ frekvens. ' => array(0 => array('url' => '1p/teori-1-52', 'title' => 'Sannsynlighetsbegrepet')),
+			                  
+			                  '4.02 Sannsynlighetsmodeller' => array(0 => array('url' => '1p/teori-1-53', 'title' => 'Sannsynlighetsmodeller')),
+			                  
+			                  '4.03 Uniforme sannsynlighetsmodeller. ' => array(0 => array('url' => '1p/teori-1-54', 'title' => 'Uniform sannsynlighet')),			                  
+			                  '4.04 Addisjonssetningen' => array(0 => array('url' => '1p/teori-1-55', 'title' => 'Addisjonssetningen ')),			                  
+			                  '4.05 Produktsetningen for uavhengige hendelser' =>  array(0 => array('url' => '1p/teori-1-56', 'title' => 'Avhengige og uavhengige prosesser '), 1 => array('url' => '1p/teori-1-57', 'title'=> 'Produktregler for sammensatte forsøk ')),
+			                  
+			                  '4.06 Produktsetningen for avhengige hendelser' =>  array(0 => array('url' => '1p/teori-1-56', 'title' => 'Avhengige og uavhengige prosesser '), 1 => array('url' => '1p/teori-1-57', 'title'=> 'Produktregler for sammensatte forsøk ')),
+			                  
+			                  '4.07 Sammensatte forsøk' => array(0 => array('url' => '1p/teori-1-57', 'title' => 'Produktregler for sammensatte forsøk ')),			                  
+			                  ),
+                        
+			          '5 Funksjoner' => array(
+			                  '5.01 Funksjoner og grafer' =>  array(0 => array('url' => '1p/teori-1-58', 'title' => 'Funksjonsbegrepet'), 1 => array('url' => '1p/teori-1-61', 'title'=> 'Polynomfunksjoner')),
+			                  
+			                  '5.02 Førstegradsfunksjoner. ' =>  array(0 => array('url' => '1p/teori-1-59', 'title' => 'Lineære funksjoner'), 1 => array('url' => '1p/teori-1-60', 'title'=> 'Lineære funksjoner i din hverdag')),
+			                  
+			                  '5.03 Lineær vekst' =>  array(0 => array('url' => '1p/teori-1-62', 'title' => 'Gjennomsnittlig vekstfart'), 1 => array('url' => '1p/teori-1-63', 'title'=> 'Momentan vekstfart')),
+			                  
+			                  '5.04 Proporsjonalitet' => array(0 => array('url' => '1p/teori-1-77', 'title' => 'Proporsjonalitet og omvendt proporsjonalitet')),			                  
+			                  '5.05 Andregradsfunksjoner' => array(0 => array('url' => '1p/teori-1-61', 'title' => 'Polynomfunksjoner')),
+                      
+                    	)
+        );
+          
+?>
+

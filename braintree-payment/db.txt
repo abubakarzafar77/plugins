@@ -1,0 +1,21 @@
+
+
+CREATE TABLE IF NOT EXISTS `wp_braintree_setting` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `merchant_id` varchar(225) NOT NULL,
+  `public_key` varchar(225) NOT NULL,
+  `private_key` varchar(225) NOT NULL,
+  `cse_key` text NOT NULL,
+  `sandbox` enum('0','1') NOT NULL DEFAULT '1',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+
+
+CREATE TABLE IF NOT EXISTS `wp_braintree_log` (
+  `id` bigint(10) NOT NULL AUTO_INCREMENT,
+  `subscription_id` varchar(225) DEFAULT NULL,
+  `type` varchar(225) DEFAULT NULL,
+  `created_at` datetime DEFAULT NULL,
+  `response` text,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;

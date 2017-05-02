@@ -1,0 +1,240 @@
+form.answer-survey {
+    position: relative;
+    width: 100%;
+    float: left;
+    padding: 1em;
+    margin: 1em 0; }
+form.answer-survey textarea {
+    min-width: 80%;
+    height: 200px; }
+form.answer-survey .overlay {
+    z-index: 1000;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #FFF;
+    opacity: 0.45;
+    -moz-opacity: 0.45;
+    filter: alpha(opacity=45);
+    display: none; }
+form.answer-survey .overlay .preloader {
+    display: block;
+    width: 98px;
+    height: 98px;
+    position: absolute;
+    z-index: 9999999;
+    top: 50%;
+    left: 50%;
+    margin-top: -20px;
+    margin-left: -20px;
+    background: url("../images/maintenance.gif") no-repeat center;
+}
+
+.control-group {
+    margin: 1.5em 0; 
+}
+/*form style bill*/
+
+#pfbc .controls {
+    padding: 7px 29px !important;
+}
+#pfbc .control-label {
+    /*color: #fff;*/
+    width: 100%;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 600;
+    /*padding-bottom: 5px;*/
+    margin-left: 40px;
+    /*background-color: #EFEFEF;*/
+    /*padding: 13px;*/
+}
+
+#pfbc .button-primary.btn-info.prev.btn {
+    /*background: #EF901C;*/
+    /*color: #ffffff;*/
+    /*box-shadow: none;*/
+    /*border: 0;*/
+    float: left;
+    /*margin-left:25px !important;*/
+
+    background: url('images/btn-orange.png') no-repeat center center;
+    font-weight: bold;
+    background-size: 180px 34px;
+    box-shadow: 0;
+    border: 0;
+    cursor: pointer;
+    margin: 0px auto;
+    height: 32px;
+    color: white;
+    width: 100px;
+    margin-left:13px;
+    /*margin-left:47px;*/
+}
+
+#pfbc .button-primary.btn-info.next.btn {
+    /*background: #EF901C;;*/
+    /*color: #ffffff;*/
+    float: left;
+    /*box-shadow: none;*/
+    /*border: 0;*/
+    margin-right:25px !important;
+
+
+    background: url('images/btn-orange.png') no-repeat center center;
+    font-weight: bold;
+    background-size: 180px 34px;
+    box-shadow: 0;
+    border: 0;
+    cursor: pointer;
+    margin: 0px auto;
+    height: 32px;
+    color: white;
+    width: 100px;
+    /*margin-left: 47px;*/
+    margin-left: 13px;
+}
+#pfbc  .button-primary.btn.btn-primary {
+    float: right;
+    /*background: #EF901C;*/
+    /*color:#ffffff;*/
+    display:none;
+    margin-right:118px !important;
+
+    background: url('images/btn-orange.png') no-repeat center center;
+    font-weight: bold;
+    background-size: 180px 34px;
+    box-shadow: 0;
+    border: 0;
+    cursor: pointer;
+    margin: 0px auto;
+    height: 32px;
+    color: white;
+    width: 100px;
+}
+#pfbc .button-primary {
+    background: #EFEFEF none repeat scroll 0 0;
+    border: 0 none;
+    box-shadow: none;
+    /*color: #fff;*/
+    float: left;
+    /*padding: 10px 20px;*/
+}
+#pfbc .error {
+    /*background: #f2dede none repeat scroll 0 0;*/
+    /*border-radius: 3px;*/
+    color: #b94a48;
+    /*padding: 5px;*/
+    padding-left: 44px;
+
+}
+#pfbc  .control-group{
+    /*border: 2px solid;*/
+    /*padding: 31px;*/
+}
+
+.my-custom-h4 {
+    /*background-color: #435363 !important;*/
+    /*font-family: "roboto_slabregular";*/
+    margin-left: 11px !important;
+    width: 100%;
+    /*border-radius: 0;*/
+    /*color:white !important;*/
+}
+#pfbc .control-group {
+    /*border: 2px solid #ffffff;*/
+    /*box-shadow: 0 0 5px #ffffff;*/
+    /*padding: 31px;*/
+}
+#pfbc fieldset {
+    background: #EFEFEF none repeat scroll 0 0;
+    padding: .35em 0 1.75em;
+}
+#pfbc .control-label::before {
+    content: "Spørsmål: ";
+    font-size: 14px;
+    font-weight: bold;
+    color: #626262;
+}
+#pfbc .control-label {
+    color: #626262;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 3px;
+    font-weight: normal;
+    font-size: 14px;
+    font-weight: bold;
+}
+#pfbc .controls {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+#pfbc .radio {
+    color: #626262;
+    /*font-family: "roboto_slabregular";*/
+    font-size: 11px;
+    padding-left: 37px;
+    color: #626262;
+    /*display: inline-block;*/
+    /*padding: 5px;*/
+    /*border-radius: 3px;*/
+    font-weight: normal;
+    line-height: 1.1em;
+}
+#pfbc input[type="radio"] {
+    position: relative;
+    top: 3px;
+    padding-right: 10px !important;
+    margin-right: 7px;
+
+}
+
+
+#pfbc .button-primary.btn-info.next.btn {
+    /*background: #4e5d6c none repeat scroll 0 0 !important;*/
+}
+.quiz-details{
+    /*font-size: 14px !important;*/
+    font-weight: bold !important;
+    color:rgb(98, 98, 98) !important;
+    padding-left: 5px !important;
+    /*margin-bottom: 10px !important;*/
+    margin-left:12px !important;
+}
+
+.form-actions{
+    width: 40%;
+    float: left;
+    margin-left : 34px;
+}
+
+
+
+#custom_button_restart {
+    /*background: #EF901C;;*/
+    /*color: #ffffff;*/
+    float: left;
+    /*box-shadow: none;*/
+    /*border: 0;*/
+    margin-right:25px !important;
+
+
+    background: url('images/btn-orange.png') no-repeat center center;
+    font-weight: bold;
+    background-size: 180px 34px;
+    box-shadow: 0;
+    border: 0;
+    cursor: pointer;
+    margin: 0px auto;
+    height: 32px;
+    color: white;
+    width: 100px;
+    /*margin-left: 47px;*/
+    margin-left: 13px;
+}
+
+
+
+/*form style bill*/

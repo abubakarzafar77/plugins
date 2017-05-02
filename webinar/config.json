@@ -1,0 +1,54 @@
+{
+  "plugin_name": "webinar",
+  "plugin_images_folder": "images",
+  "plugin_js_folder": "js",
+  "plugin_css_folder": "css",
+  "plugin_views_folder": "views",
+  "plugin_settings_table": "webinar_settings",
+  "plugin_teachers_table": "[WPDBPREFIX]users",
+  "plugin_jobs_table": "[WPDBPREFIX]webinar_jobs",
+  "plugin_hearts_table": "[WPDBPREFIX]webinar_hearts",
+  "plugin_teacher_categories_table": "[WPDBPREFIX]teacher_categories",
+  "plugin_job_offers_table": "[WPDBPREFIX]webinar_job_offers",
+  "plugin_job_ratings_table": "[WPDBPREFIX]webinar_ratings",
+  "plugin_job_groups_table": "[WPDBPREFIX]webinar_groups",
+  "plugin_email_template_page": "webinar-email_templates",
+  "plugin_teachers_page": "webinar-teachers",
+  "plugin_webinars_page": "webinar-list",
+  "plugin_teacher_categories_page": "webinar-teacher-categories",
+  "webinar_posted_jobs_page": "my_jobs",
+  "plugin_available_jobs_page": "available_jobs",
+  "plugin_webinar_durations": {
+    "1-time|299-kr": "1 time - 229 kr",
+    "2-timer|590-kr": "2 timer - 590 kr",
+    "5-timers-pakke|1449-kr": "5 timers pakke - 1449 kr",
+    "10-timers-pakke|2790-kr": "10 timers pakke - 2790 kr",
+    "20-timers-pakke|4990-kr": "20 timers pakke - 1 time leksehelp i uken hele semesteret - 4990 kr",
+    "40-timers-pakke|8990-kr": "40 timers pakke - 2 timer leksehelp i uken hele semesteret - 8990 kr"
+  },
+  "teacher_budget": {
+    "10": "2451",
+    "20": "4644",
+    "40": "8772"
+  },
+  "plugin_webinar_budget": {
+    "229-kr": "229 kr",
+    "590-kr": "590 kr",
+    "1449-kr": "1449 kr",
+    "2790-kr": "2790 kr",
+    "4990-kr": "4990 kr",
+    "8990-kr": "8990 kr"
+  },
+  "sandbox": {
+    "merchant_id": "ghwj4973mw8k4qjz",
+    "public_key": "3hmynds6s36w3hhf",
+    "private_key": "14f086ee5ad0f14f09c01e40c8f7077a",
+    "cse_key": "MIIBCgKCAQEArvSxcjgAdS9bEDor7asPgpHmnlB4m5aL/nZ9kCNPPF+SfZO1PxtCzzLciynnOyFwxV/IVtNO3GQu45CoZFYZJD1ZGQUaewPvGjH4K7t0P8Qs80FLKKZwsDJXmW+DfzvGZ/14353RpMdP0yGtzEUaDe49pBQ4KPke/vWXqAS5QRBbyTES71ZMmtvZE8wmPx97CDyEYBnRwNcLHFI/BDolidu3mntfu6amAr0wEYkSt8Aagh5g8hoiOyFuyA8zBgHj7ENTbLufio9PEgeUOVy8iAZhJ3SBsCDnBgyUqzdAhb1rmuU2OqDDD1Cnnw5ysAhLEGuA2RM3nuWR9HG/DcEdhwIDAQAB"
+  },
+  "production":{
+    "merchant_id": "bnc4qkc5vgvyp5yv",
+    "public_key": "b5b82h5nwg7g9qt7",
+    "private_key": "971823e7fffd533edc35e1e4f2238db0",
+    "cse_key": "MIIBCgKCAQEArnkFRzRNNRzjcrk2t1Nh5Je+3ThHta2QcZkll9lgHba8+RyuZMp6nxhKk3iSZynJlqcwkub8oXHidqxSaccOla16a+gZRWHFV8Tnpv0CbtmCAeinOknlAi7J4ECvzYX07oX4fb58T0exm/8RxeDbGyavsnZ0tD3pY+IE2O4h8Kir2AoM1EVwRyWN3/aXyvcs74dlB+0ZAGjv4JVURsYudU0UK85qbsdZ/UAmMY66g886ybhplKdCC06tiIGN+G040RLy0q10w3KAz1z9yn8yqNLdxB09MU8hW94gAeJ2mBG2Bm/3n+6i53bK/wXYfarRjiJEW3MDmkn912u2Kyj10wIDAQAB"
+  }
+}

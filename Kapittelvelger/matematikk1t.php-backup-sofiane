@@ -1,0 +1,200 @@
+<?php
+
+$matematikk1t = array('1 Tall og algebra ' => array('1.1 Regning med hele tall' => 
+                      array(0 => array('url' => '1t/regningogalgebra/tallregning/teori-1-6',
+                                'title' => 'Tallregning')),
+                                                                  
+                      '1.2 Brøk' => 
+                      array(0 => array('url' => '1t/regningogalgebra/brok/teori-1-2-2',
+                              		  	'title' => 'Brøk')), 
+                    
+                      '1.3 Store og små tall' => 
+                      array(0 => array('url' => '1t/teori-1-5-2',
+                                'title' => 'Tierpotenser og standarform')),
+                         
+                      '1.4 Bokstavuttrykk' => 
+                      array(0 => array('url' => '1t/regningogalgebra/bokstavregning/teori-1-7', 
+                                'title' => 'Bokstavregning')),
+                                                        
+                      '1.5 Likninger' => 
+                      array(0 => array('url' => 'teori/teori-1-9', 
+                                'title' => 'Likninger')),
+                                
+                      '1.6 Formler' => 
+                      array(0 => array('url' => '1t/teori-1-11', 
+                                'title' => 'Regning med formler')),
+                                
+                      '1.7 Reelle tall' => 
+                      array(0 => array('url' => '1t/teori-1-12', 
+                                'title' => 'Forskjellige tall typer')),
+                                
+                      '1.8 Potenser' => 
+                      array(0 => array('url' => '1t/teori-1-13', 
+                                'title' => 'Potenser')),
+                                
+                      '1.9 n-terøtter' => 
+                      array(0 => array('url' => '1t/teori-1-14', 
+                                'title' => 'n-terøtter')),
+                                
+                      '1.10 Andregradslikninger' => 
+                      array(0 => array('url' => '1t/teori-1-17',
+                                'title' => 'Likninger'))
+                      ),
+                      
+            "2 Trigonometri" => array(
+                      '2.1 Forhold og formlikhet' => 
+                      array(0 => array('url' => '1t/teori-1-22',
+                                       'title' => 'Definisjon av forhold'),                
+                          1 => array('url' => '1t/teori-1-3-2',  
+                                 'title' => 'Formlikhet')),
+                                 
+                      '2.2 Rettvinklede trekanter. Pytagorassetningen' => 
+                      array(0 => array('url' => '1t/teori-1-4-2', 
+                                'title' => 'Pytagoras')),
+                      '2.3 Tangens' => 
+                      array(0 => array('url' => '1t/teori-1-6-2',
+                                'title' => 'Sinus, cosinus og tangens')),
+                      '2.4 Sinus og cosinus' => 
+                      array(0 => array('url' => '1t/teori-1-6-2', 
+                                  'title' => 'Sinus cosinus og tangens')),
+                                  
+                      '2.5 Sinus og cosinus for vinkler i intervallet [0, 180]' => 
+                      array(0 => array('url' => '1t/teori-1-8', 
+                                  'title' => 'Generell definisjon av sin, con og tan')),
+                      '2.6 Arealformelen og sinussetningen' => 
+                      array(0 => array('url' => '1t/teori-1-10',
+                                  'title' => 'Areal Sinus og cosinus setningen')),
+                      '2.7 Cosinussetningen' => 
+                      array(0 => array('url' => '1t/teori-1-10',
+                                    'title' => 'Areal Sinus og cosinus setningen'))
+                      ),
+            "3 Funksjoner" => array(
+                      "3.1 Funksjoner og grafer" => 
+                      array(0 => array('url' => '1t/teori-1-18', 
+                                'title' => 'Funksjonsbegrepet')),
+                                
+                      "3.2 Førstegradsfunksjoner" => 
+                      array(0 => array('url' =>  '1t/teori-1-19',
+                                  'title' => 'Lineære funksjoner')), 
+                                  
+                      "3.3 Praktisk bruk av førstegradsfunksjoner" => 
+                      array(0 => array('url' =>  '1t/teori-1-23',
+                                'title' => 'Lineære funksjoner')),   
+                      "3.4 Polynomfunksjoner" => 
+                      array(0 => array('url' =>  '1t/teori-1-25',
+                                'title' => 'Polynomfunskjoner')),   
+                                
+                      "3.5 Rasjonale funksjoner" => 
+                      array(0 => array('url' =>  '1t/teori-1-29',
+                                'title' => 'Rasjonalefunksjoner')),   
+                                
+                      "3.6 Prosentvis vekst" => 
+                      array(0 => array('url' =>  '1t/teori-1-33',
+                                'title' => 'Vekstfaktor')),   
+                                
+                      "3.7 Eksponentialfunksjoner og potensfunksjoner " => 
+                      array(0 => array('url' =>  '1t/teori-1-35',
+                                'title' => 'Eksponentalfunksjoner'))
+                      ),  
+                              
+            "4 Sannsynlighet" => array(
+                      "4.1 Sannsynlighet og relativ frekvens" => 
+                      array(0 => array('url' => '1t/teori-1-15', 
+                                'title' => 'Sannsynlighetsbegrepet')),  
+                                
+                      "4.2 Sannsynlighetsmodeller" => 
+                      array(0 => array('url' => '1t/teori-1-16', 
+                                'title' => 'Sannsynlighetsmodeller')),  
+                                 
+                      "4.3 Uniforme sannsynlighetsmodeller" => 
+                      array(0 => array('url' => '1t/teori-1-20', 
+                                'title' => 'Uniformsannsynlighet')),  
+                                 
+                      "4.4 Addisjonssetningen" => 
+                      array(0 => array('url' => '1t/teori-1-24', 
+                                'title' => 'Addisjonssetningen')),  
+                                 
+                      "4.5 Produktsetningen for uavhengige setninger" => 
+                      array(0 => array('url' => '1t/teori-1-26', 
+                                'title' => 'Avhengige og uavhengigeprosesser')),   
+                                
+                      "4.6 Produktsetningen for avhengige hendelser" => 
+                      array(0 => array('url' => '1t/teori-1-26', 
+                                'title' => 'Avhengige og uavhengigeprosesser')),  
+                                
+                      "4.7 Sammensatte forsøk" => 
+                      array(0 => array('url' => '1t/teori-1-30', 
+                                'title' => 'Produktregler for sammensatte forsøk')),  
+                                 
+                      "4.8 Binomiske sannsynligheter" => 
+                      array(0 => array('url' => '1t/teori-1-45',
+                                'title' => 'Bionomiske sannsynligheter'))
+                      ),
+                                
+            "5 Mer algebra" => array( 
+                      "5.1 Faktorisering og forkorting" => 
+                      array(0 => array('url' =>  '1t/teori-1-37',
+                                'title' => 'Faktorisering og forkorting')),
+                                
+                      "5.2 Kvadratsetningene" => 
+                      array(0 => array('url' =>  '1t/teori-1-39', 
+                                'title' => 'Kvadratsetningene')),   
+                                
+                      "5.2 Kvadratsetningene" => 
+                      array(0 => array('url' =>  '5teori/teori-1-43', 
+                                'title' => 'Nullpunkterogfaktorisering')),
+                                   
+                      "5.3 Likninger med brøkuttrykk" => 
+                      array(0 => array('url' =>  'oppgavevideo/oppgave-1-38', 
+                                'title' => 'Brøk likninger')),   
+                      "5.4 Likningssett" => 
+                      array(0 => array('url' =>  '1t/teori-1-38', 
+                                'title' => 'Likningsett')),   
+                      "5.5 Ulikheter" =>
+                      array(0 => array('url' =>  '1t/teori-1-41',
+                                'title' => 'Ulikheter')),  
+                                 
+                      "5.6 Eksponentiallikninger" =>
+                      array(0 => array('url' =>  '1t/oppgave-1-37',
+                                'title' => 'Eksponentallikninger')),
+                                   
+                      "5.7 Logaritmelikninger" => 
+                      array(0 => array('url' =>  '1t/oppgave-3-18',
+                                'title' => 'Logaritmelikninger'))
+                      ),
+                      
+            "6 Derivasjon" => array(
+                      "6.1 Gjennomsnittlig vekstfart" =>
+                      array(0 => array('url' => '1t/teori-1-27', 
+                                 'title' => 'Gjennomsnittligvekstfart')),
+                                 
+                      "6.2 Momentan vekstfart" =>
+                      array(0 => array('url' => '1t/teori-1-28', 
+                                 'title' => 'Momentanvekstfart')),
+                                 
+                      "6.3 Den deriverte" =>
+                      array(0 => array('url' => '1t/teori-2-15',
+                                'title' => 'Denderiverte')),
+                                   
+                      "6.4 Å bruke definisjonen til å utlede den deriverte " =>
+                      array(0 => array('url' => '1t/teori-1-32' ,
+                                'title' => 'Derivasjon')),
+                                 
+                      "6.5 Derivasjonregler" =>
+                      array(0 => array('url' => '1t/teori-1-34',
+                                 'title' => 'Derivasjonsregel')),
+                                 
+                      "6.6 Fortegnslinje for den deriverte " =>
+                      array(0 => array('url' => '1t/teori-1-36', 
+                                 'title' => 'Funksjonsdrøfting')),
+                                 
+                      "6.7 Drøfting av funksjoner" => 
+                      array(0 => array('url' =>  '1t/teori-1-36',
+                                'title' => 'Funksjonsdrøfting'))
+                      )
+            );
+
+/*echo "Test: ";
+echo $mattematikk1t['5 Mer algebra']['5.7 Logaritmelikninger'][0]['title']."<br/>";
+echo $mattematikk1t['5 Mer algebra']['5.7 Logaritmelikninger'][0]['url']."<br/>";*/
+?>

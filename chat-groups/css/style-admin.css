@@ -1,0 +1,23 @@
+.widefat {width: 65%;}
+
+.no_record{
+    clear: both;
+}
+.percent_100{
+    width: 100% !important;
+}
+.percent_10{
+    width: 10% !important;
+}
+.percent_20{
+    width: 20% !important;
+}
+.percent_40{
+    width: 40% !important;
+}
+.percent_60{
+    width: 60% !important;
+}
+.bg_white{
+    background:#FFFFFF !important;
+}

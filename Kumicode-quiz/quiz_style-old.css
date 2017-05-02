@@ -1,0 +1,282 @@
+#main-quiz{
+	width:auto;
+}
+
+#main-quiz #content{
+	width: auto;
+}
+
+.quiz {
+	/*
+	width: 500px;
+	margin: 20px auto;
+	*/
+	padding:20px;
+}
+
+label.question {
+	display: block;
+	color: #EF901C;
+	font-weight: bold;
+}
+
+h2#quizCategory{
+	margin-bottom: 27px;
+}
+
+/* =adminQuizTable
+--------------------------------------------------------------*/
+
+div.addQuestion{
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #d0d0d0;
+	height:343px;
+	
+}
+
+div.addQuestion h3{
+	width:200px;
+}
+
+div.addQuestion #question_input{
+	width:613px;
+}
+
+div.admin_answer_box{
+	padding: 10px 20px 10px 0;
+	float: left;
+	
+}
+
+
+
+
+/*	=userQuizTable
+*/
+
+div#quiz{
+	overflow: hidden;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	position: relative;
+	margin: 38px 0;
+}
+
+div.quiz_1t{
+	background: url(images/bg/bg_1t.png) white no-repeat center center;
+	}
+div.quiz_1p{
+	background: url(images/bg/bg_1p.png) white no-repeat center center;
+}
+div.quiz_r1{
+	background: url(images/bg/bg_r1.png) white no-repeat center center;
+}
+
+div.quiz_r2{
+	background: url(images/bg/R2-quiz-background-image.png) white no-repeat center center;
+}
+
+div.quiz_s1{
+	background: url(images/bg/quiz_s1.png) white no-repeat center center;
+	}
+
+div.quiz_r2 .left{
+	top:33% !important;
+}
+
+div.quiz_1py{
+	background: url(images/bg/bg_1py.png) white no-repeat center center;
+}
+/*div.quiz_s1{
+	background: url(images/bg/bg_1t.png) white no-repeat center center;
+}
+div.quiz_2p{
+	background: url(images/bg/bg_1t.png) white no-repeat center center;
+}*/
+	
+
+div.answer_box {
+	padding: 10px 20px 10px 0;
+	
+}
+label.answer{
+	width:200px;
+}
+
+div.correct_answer{
+	padding: 10px 20px 10px 0;
+	width:200px;
+	
+	float:left;
+	clear:left;
+}
+
+div.category_picker{
+	padding: 10px 20px 10px 0;
+	float:left;
+	clear: right;
+}
+
+div.editQuestion{
+	
+}
+
+div.editQuestion .question{
+	border-color: #dbdbdb;
+	border-bottom-width: 1px;
+	border-style: dotted;
+	padding: 20px 20px 20px 0;
+	margin: 20px 20px 20px 0;
+
+	
+}
+
+
+
+
+
+
+/* =Quiz_table
+---------------------------------------------------------------*/
+#quiz_table, #quiz{
+	height: 760px;
+}
+
+#quiz-select_widget{
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px; 
+	height:100%;
+	background: white;
+	margin: 0 auto;
+}
+
+
+
+#quiz li.question_box{
+	width:120px;
+	padding:7px 7px;
+	margin:2px;
+	top: 50%;
+	
+	background-color: #C3C3C3;
+	text-align: center;
+	color: white;
+	font-size: 11px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	line-height: 12px;
+	
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px; 
+	
+	
+}
+
+li.question_box a:link,
+li.question_box a:visited{
+	color:white;
+	text-decoration: none;
+}
+li.question_box a:hover{
+	color:#EF901C;
+}
+/*
+div.done{
+	-webkit-box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.5);
+-moz-box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.5);
+box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.5); 
+}
+*/
+#quiz li.done_1{
+	background-color: #fdba00;
+}
+
+#quiz li.done_2{
+	background-color: #ed9300;
+}
+
+#quiz li.done_3{
+	background-color: #e87800;
+}
+
+#quiz li.done_4{
+	background-color: #71c0ce;
+}
+
+#quiz li.done_5{
+	background-color: #a9d5df;
+}
+
+#quiz li.done_6{
+	background-color: #c2cd27;
+}
+
+li.question_box div{
+	height: 50px;
+	position: relative;
+	margin: 5px auto;
+	color:white;
+}
+
+ul.top,
+ul.bottom{
+	height: 50%;
+	overflow: hidden;
+}
+
+#quiz ul.left{
+	height:100%;
+	width: 200px;
+	margin-left:30px;
+	position: absolute;
+	top: 30%;
+}
+
+#quiz ul.right{
+	position: absolute;
+	right:0;
+	top: 30%;
+	}
+
+#quiz ul.topleft{
+	position: absolute;
+	top:0;
+	left:20%;
+}
+#quiz ul.topright{
+	position: absolute;
+	top:0;
+	right:20%;
+}
+#quiz ul.bottomleft{
+	position: absolute;
+	bottom:0;
+	left:20%;
+}
+#quiz ul.bottomright{
+	position: absolute;
+	bottom:0;
+	right:20%;
+}
+ul.right div.question_box{
+	float: right;
+}
+
+ul.left div.question_box{
+	float:left;
+}
+
+.Riktig{
+	background-position: right center;
+	background-repeat: no-repeat;
+	background-image: url(images/dc/dc_answer_correct.png);
+}
+
+.Feil{
+	background-repeat: no-repeat;
+	background-position: right center;
+	background-image: url(images/dc/dc_answer_fail.png);
+}

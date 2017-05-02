@@ -1,0 +1,444 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 22, 2016, 4:44:22 PM
+    Author     : Hamid Ejaz
+*/
+
+.tr-form-row{padding:50px 30px;}
+.tr_form-box{margin-bottom:20px;}
+.tr_form-box label{font-weight:bold;max-width:120px;width:100%;display:inline-block;vertical-align:top;margin-right:10px;font-size:14px;}
+.tr_form-box label.label_checkbox{ max-width: none; width: auto;}
+.tr_form-box input[type="text"]{border-radius:4px;padding:8px 10px;max-width:500px;width:100%}
+.tr_form-box textarea{max-width:500px;width:100%;height:200px;}
+.wp-editor-area{max-width: none !important;}
+.tr_form-box input[type="submit"]{background:#000;color:#fff;border:0;min-widht:150px;padding:8px 10px;font-weight:bold;border-radius:4px;cursor:pointer;}
+
+.tr-primary-heading {
+    border-bottom: 1px solid #ddd;
+    font-size: 24px;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+}
+.tr_form-box label.error {
+    color: red;
+    display: block;
+    max-width: 100%;
+}
+#freezeassy_add_ingredients .tr_form-box label.error{
+    padding-left: 0px;
+}
+
+.add_categories_table, .add_categories_table th, .add_categories_table td {
+    border-bottom: 1px solid #e5e5e5;
+    border-collapse: collapse;
+    padding: 5px;
+    text-align: left;
+}
+table.add_categories_table {
+    border:0 !important;
+    background:#fff;
+
+}
+table.add_categories_table tr th {
+    border-bottom: 1px solid #e5e5e5 !important;
+    font-weight:600;
+    font-size:14px;
+    padding:10px !important;
+}
+table.add_categories_table tr td {
+    border-bottom: 1px solid #e5e5e5 !important;
+    padding:10px !important;
+}
+
+
+#TB_title {
+    background: #fcfcfc none repeat scroll 0 0;
+    border-bottom: 0 none;
+    height: 29px;
+}
+/************************************************/
+
+#TB_window .tb-close-icon {
+    background: black none repeat scroll 0 0;
+    border-radius: 50%;
+    box-shadow: 0 0 3px #fff;
+    color: #fff;
+    height: 29px;
+    line-height: 29px;
+    position: absolute;
+    right: -10px;
+    text-align: center;
+    top: -13px;
+    width: 29px;
+}
+#TB_window{border-radius:8px !important;}
+#TB_title{border-radius:8px !important;}
+.tr_form-box label{font-weight:600;}
+
+.tr_form-box input[type="submit"] {
+    background: #000 none repeat scroll 0 0;
+    border: 0 none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 8px 20px;
+}
+
+/*********************************btns******************/
+.edit_ingredient{
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: 0 none;
+    color:#0073aa;
+}
+.delete_ingredient{
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: 0 none;
+    color:#0073aa;
+}
+.edit_recipe_line{
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: 0 none;
+    color:#0073aa;
+}
+.delete_recipe_line{
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: 0 none;
+    color:#0073aa;
+}
+.edit_category{
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: 0 none;
+    color:#0073aa;
+}
+.delete_category{
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: 0 none;
+    color:#0073aa;
+}
+.edit_notes{
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: 0 none;
+    color:#0073aa;
+}
+.delete_notes{
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: 0 none;
+    color:#0073aa;
+}
+
+/*********recipe-add*******/
+
+
+.recipe-line {
+    background: #fff none repeat scroll 0 0;
+    padding: 10px 30px;
+}
+.tr_form-box select {
+    border-radius: 4px;
+    max-width: 500px;
+    padding: 8px 10px;
+    width: 100%;
+    height: auto;
+}
+.wp-admin button{
+    cursor: pointer;
+}
+.create-recipe-form{ max-width:650px;}
+
+.drag-box {
+    border: 1px solid #ddd;
+    margin-bottom: 40px;
+    width:97%;
+}
+.drag-box .tr_form-box {
+    background: #32373c;
+    color: #fff;
+    padding: 10px;
+}
+.drag-box .panel.panel-heading {
+    border: 1px solid #ccc;
+    margin: 10px 20px;
+    padding: 10px;
+    cursor:pointer !important;
+}
+
+
+
+.cat-title {
+    display: inline-block;
+    width: 10%;
+    vertical-align: middle;
+}
+.cat-desc {
+    display: inline-block;
+    width: 80%;
+    vertical-align: middle;
+}
+.cat-desc.fw > input{width: 420px !important;}
+.cat-desc.fw2 > input{width: 310px !important;}
+.drag-box .panel.panel-heading {
+    border: 1px solid #ccc;
+    margin: 10px 20px;
+    padding: 8px;
+}
+.cat-desc > select {
+    width: 135px;
+}
+.cat-desc > input {
+    width: 135px !important;
+}
+.drag-box a {
+    color: #fff;
+}
+.drag-box .tr_form-box label{max-width:300px;}
+.delete-ingredient {
+    background: #555 none repeat scroll 0 0;
+    border-radius: 50%;
+    color: #fff;
+    display: inline-block;
+    /*margin-left: 5px;
+    padding: 3px 8px;*/
+    margin-left: 10px;
+    padding: 0 4px;
+    text-decoration: none;
+}
+
+.delete-recipeline{
+    background: #555 none repeat scroll 0 0;
+    border-radius: 50%;
+    color: #fff;
+    display: inline-block;
+    margin-left: 5px;
+    padding: 3px 8px;
+    text-decoration: none;
+}
+.error{color:red !important;}
+.delete-order{ background: #555 none repeat scroll 0 0;
+    border-radius: 50%;
+    color: #fff;
+    display: inline-block;
+    margin-left: 5px;
+    padding: 3px 8px;
+    text-decoration: none;}
+.delete-prep{ background: #555 none repeat scroll 0 0;
+    border-radius: 50%;
+    color: #fff;
+    display: inline-block;
+    /*margin-left: 5px;
+    padding: 3px 8px;*/
+    margin-left: 3px;
+    padding: 0 5px;
+    text-decoration: none;}
+#freezeassy_add_category .tr_form-box label.error{padding-left:0;}
+#freezeassy_add_ingredients .tr_form-box label.error{padding-left:0;}
+#freezeassy_add_recipe_line .tr_form-box label.error{padding-left:0;}
+#freezeassy_add_notes .tr_form-box label.error{padding-left:0;}
+.cat-desc.fw label.error {
+    color: red;
+    display: block;
+    max-width: 100%;
+    padding-left: 0;
+}
+.tr_form-box input[type="button"] {
+    background: #000 none repeat scroll 0 0;
+    border: 0 none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 8px 20px;
+}
+
+/***********************************************************************Modalbox***********************/
+.p-modal-box {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 3200px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 2147483647;
+}
+.p-modal-innner {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 8px;
+    box-shadow: 0 0 3px #ddd;
+    margin: 100px auto 0;
+    max-width: 645px;
+    padding: 20px;
+    position: relative;
+}
+.p-deal-name{color:000;}
+.p-deal-name a{color:#000;}
+.heading-popup {
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 21px;
+    margin-bottom: 0;
+    margin-top: 20px;
+    text-align: center;
+}
+.popup-categories {
+    color: grey;
+    font-size: 14px;
+    margin-bottom: 12px;
+    text-align:center;
+    padding-top:8px;
+}
+.p-sub-heading {
+    border-bottom: 2px solid green;
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding-left: 0;
+    width: 80%;
+}
+.p-listing li {
+    font-size: 15px !important;
+    line-height: 21px;
+}
+.p-close-btn {
+    background:#e96f16;
+    border-radius: 50%;
+    font-size: 21px;
+    font-weight: bold;
+    padding: 9px 16px;
+    position: absolute;
+    right: -20px;
+    top: -27px;
+}
+.p-close-btn a{ text-decoration:none; color:#fff;}
+.p-listing {
+    float: left;
+    width: 48%;
+    margin-bottom:20px;
+}
+.p-listing li {
+    font-size: 13px !important;
+    line-height: 21px;
+    list-style-type: disc;
+    margin-left: 35px;
+    padding-left: 5px;
+}
+.p-listing li {
+    font-size: 15px !important;
+    line-height: 21px;
+}
+.deal-banner {
+    text-align: center;
+}
+.deal-banner img{max-height:150px;}
+.popup-prepandcooktime {
+    color: grey;
+    font-size: 14px;
+    margin-bottom: 30px;
+    text-align: center;
+    padding-top: 8px;
+}
+.recipe_html{
+    display: inline-block;
+    width: 75%;
+}
+
+.plan_check_box {
+    display: inline-block;
+    width: 48%;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.cat-desc {
+    width: 88%;
+
+}
+.cat-desc.fw > input {
+    width: 392px !important;
+}
+.print_page td.p-deal-name {
+    cursor: default !Important;
+}
+/**/
+.shop-listing-col li {
+    margin: 0;
+    padding: 0;
+    list-style-type: disc;
+    font-size: 14px;
+    margin-left: 20px;
+    line-height: 24px;
+}
+.select_recipe_image{position: relative;left: 14px;bottom: 9px;}
+.changed_image_after_select{width: 125px;height: 125px;}
+#exercisetuff .post-body-content{
+    float: left;
+    width: 65%;
+}
+#exercisetuff #post-body.columns-2 #postbox-container-1{
+    float: right;
+    margin-right: 80px;
+    width: 25%;
+}
+#exercisetuff #create-plan-form{
+    padding-top: 10px;
+}
+.select2-container{
+    width: 500px !important;
+}
+
+#fancybox-loading {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -22px;
+    margin-left: -22px;
+    background-position: 0 -108px;
+    opacity: 0.8;
+    cursor: pointer;
+    z-index: 8060;
+}
+#fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {
+    background-image: url('images/fancybox_sprite.png');
+}
+#fancybox-loading div {
+    width: 44px;
+    height: 44px;
+    background: url('images/fancybox_loading.gif') center center no-repeat;
+}
+form .error{
+    color: #c00;
+}
+form label label.error{
+    margin-left:0px;
+}
+form fieldset fieldset label.error {
+    margin-left:0px !important;
+    width:200px !important;
+}
+form label.error
+{
+    color: #c00;
+
+    font-size: 100%;
+    font-weight: bold;
+    font-variant:small-caps;
+
+    width:308px;
+    display: none;
+
+    margin:8px 0px 0px 130px;
+    padding:3px 0px 0px 5px;
+    border-top:0px dotted #ccc;
+
+    clear:both;
+}
+.exercise a.filters{
+    text-decoration: none;
+}
+.exercise a.filters.selected{
+    text-decoration: underline;
+    font-weight: bold;
+}

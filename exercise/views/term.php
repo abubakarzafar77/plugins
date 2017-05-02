@@ -1,0 +1,1 @@
+<a href="javascript://" data-term="<?php echo (isset($__terms[0]['autumn'])?'autumn':'spring');?>" class="a-term open">Åpne alle</a>

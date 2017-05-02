@@ -1,0 +1,74 @@
+CREATE TABLE IF NOT EXISTS `chat_group_setting` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `days_in_calender` int(11) NOT NULL,
+  `hours_duration` int(11) NOT NULL,
+  `descn_length` int(11) NOT NULL,
+  `max_seat` int(11) NOT NULL,
+  `per_page` int(11) NOT NULL,
+  `time_to_email_before` int(10) NOT NULL,
+  `time_to_email_reminder` int(11) NOT NULL,
+  `time_to_enable_chat_before` int(10) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=2 ;
+
+INSERT INTO `chat_group_setting` (`id`, `days_in_calender`, `hours_duration`, `descn_length`, `max_seat`, `per_page`, `time_to_email_before`, `time_to_email_reminder`, `time_to_enable_chat_before`) VALUES
+(1, 30, 5, 50, 3, 10, 10, 10, 17);
+
+CREATE TABLE IF NOT EXISTS `email_templates` (
+  `id` bigint(10) NOT NULL AUTO_INCREMENT,
+  `type` enum('mail_1','mail_2') COLLATE utf8_unicode_ci NOT NULL,
+  `from` varchar(225) COLLATE utf8_unicode_ci NOT NULL,
+  `subject` varchar(225) COLLATE utf8_unicode_ci NOT NULL,
+  `body` text COLLATE utf8_unicode_ci NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=3 ;
+
+INSERT INTO `email_templates` (`id`, `type`, `from`, `subject`, `body`) VALUES
+(1, 'mail_1', 'noreply@mattevideo.no', 'Mattevideo - invitation to new study group {_TOPIC_}', '<p>Dear Mattevideo.no user!</p><p>One of you fellow students {_NICKNAME_} is inviting to a new study group at {_TIME_} where the topic will be {_TOPIC_}. Description: {_DESCRIPTION_}. If you wish to participate in this study group please visit {_CHATROOM_} and register your seat there. If you wish to unregister from this email list, or choose more specific which topics you receive invitations to, please go to {_YOUR_USER_SETTING_} and manage setup there.</p><p>{_YOUR_USER_SETTING_}</p>'),
+(2, 'mail_2', 'noreply@mattevideo.no', 'Mattevideo - reminder of study group in 30 min', '<p>Dear Mattevideo.no user!</p><p>Your study in {_CHATROOM_} starts in 30 min, and you soon can log in to start the discussion :) To see who has registered to participate, go to the group room.</p>');
+
+CREATE TABLE IF NOT EXISTS `groups` (
+  `id` bigint(10) NOT NULL AUTO_INCREMENT,
+  `user_id` bigint(10) NOT NULL,
+  `topic` varchar(225) COLLATE utf8_unicode_ci NOT NULL,
+  `sub_topic` int(11) NOT NULL,
+  `start_time` int(10) NOT NULL,
+  `end_time` int(10) NOT NULL,
+  `available_seats` int(10) NOT NULL,
+  `description` text COLLATE utf8_unicode_ci NOT NULL,
+  `nickname` varchar(225) COLLATE utf8_unicode_ci NOT NULL,
+  `email_after_created` tinyint(1) NOT NULL DEFAULT '0',
+  `email_reminder` tinyint(1) NOT NULL DEFAULT '0',
+  `created_at` int(10) NOT NULL,
+  `updated_at` int(10) NOT NULL,
+  `is_active` tinyint(1) NOT NULL,
+  PRIMARY KEY (`id`),
+  KEY `user_id` (`user_id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+CREATE TABLE IF NOT EXISTS `groups_chats` (
+  `id` bigint(10) NOT NULL AUTO_INCREMENT,
+  `user_id` bigint(10) NOT NULL,
+  `group_id` bigint(10) NOT NULL,
+  `message` text NOT NULL,
+  `created_at` int(10) NOT NULL,
+  PRIMARY KEY (`id`),
+  KEY `user_id` (`user_id`,`group_id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8_unicode_ci ;
+
+CREATE TABLE IF NOT EXISTS `groups_users` (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `group_id` bigint(20) NOT NULL,
+  `user_id` bigint(20) NOT NULL,
+  `nickname` varchar(225) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `is_delete` tinyint(4) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`),
+  KEY `group_id` (`group_id`,`user_id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 ;
+
+CREATE TABLE IF NOT EXISTS `groups_email_settings` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `user_id` int(11) NOT NULL,
+  `setting` varchar(225) COLLATE utf8_unicode_ci NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci ;

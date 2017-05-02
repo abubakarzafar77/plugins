@@ -1,0 +1,52 @@
+{
+	"userKeyMetaName" : "KeyExperation",
+	"operation" 		:	 "SALE",
+
+	"plugin_parameters" : {
+		"pluginName"	 		: "Mattevideo_NetAxept",
+		"plugin_name" 		: "Mattevideo_NetAxept",
+		"tn_subscription" 	: "mna_subscription",
+		"tn_payment"	 		: "mna_payment",
+		"tn_errorlog" 		: "mna_errorlog",
+		"tn_log"	 			: "mna_log"		
+	},
+	
+	"environment_parameters" : {
+		"language"             : null,
+		"OS"                   : null,
+		"WebServicePlatform"   : "PHP5"
+	},
+	
+	"terminal_parameters" : {
+		"autoAuth"             : null,
+		"paymentMethodList"    : null,
+		"language"            : "no_NO",
+		"orderDescription"     : "Mattevideo abonnement",
+		"redirectOnError"      : null
+	},
+	
+	"register_request_parameters" : {
+		"AvtaleGiro"           : null,
+		"CardInfo"             : null,
+		"description"          : "Betaling for tilgang til Mattevideo.no.",
+		"DnBNorDirectPayment"  : null,
+		"MicroPayment"         : null,
+		"serviceType"          : null,
+		"Recurring"            : null,
+		"transactionId"       : null,
+		"transactionReconRef"  : null
+	},
+	
+	"order_parameters" : {
+		"currencyCode" : "NOK",
+		"force3DSecure" : null,
+		"updateStorePaymentInfo" : null 
+	},
+	
+	"email_templates" : {
+		"payment_email" : "Hei og velkommen som Mattevideo bruker!<br /><br />Ditt Mattevideo abonnement er nå klart til bruk, og du kan logge inn med din e-postadresse og passord:<br /><strong>{PASSWORD}</strong><br /><br />Lykke til med studiene:)",
+		"recovery_email" : "Takk for at du besøkte oss på Mattevideo.no. Vi la merke til at da du besøkte oss tidligere i dag, forlot du din bestilling før du fikk gjort deg ferdig. Hadde du et problem underveis? Hvis det var et problem fra vår side vil vi gjerne hjelpe deg.<ul style=\"list-style:outside\"><li>Hvis du ønsker mer informasjon om vår betalingsprosess besøk <a href=\"[HOME_PAGE]/logg-inn\">Logg inn</a>, eller les om vårt produkt på <a href=\"[HOME_PAGE]/om-verket\">Om Oss</a></li><li>For andre spørsmål kontakt vår kundeservice: <a href=\"mailto:mattevideo@evolutionfilm.no\">mattevideo@evolutionfilm.no</a></li><li>For direkte hjelp over telefon ring oss gjerne på tlf 98 60 61 58. Vi er tilgjengelige 24 timer i døgnet</li></ul>For å hjelpe deg med å fullføre din bestilling har vi lagt ved en link tilbake til vår Logg inn side.<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=\"[HOME_PAGE]/logg-inn?view=confirm&todo=goto_step_2&user_id=[USER_ID]\">Fullfør min bestilling</a><br /><br />Ikke glem at vi tilbyr <a href=\"[HOME_PAGE]/kjopsvilkar\">100% fornøyd garanti</a> - og ingen bindingstid<br /><br />Ha en lærerik dag!<br /><br />Hilsen dine venner hos Mattevideo.no",
+		"deactivate_email": "Hei, og takk for at du har vært bruker hos Mattevideo!<br /><br />Denne mailen bekrefter at ditt abonnement hos oss avsluttes fra og med i dag. Vi håper du har hatt glede av vår videolæring, og ønsker deg velkommen tilbake som kunde ved neste anledning. Om du ønsker å reaktivere ditt abonnement gjøres dette ved å logge inn med ditt brukernavn og passord, og deretter endre status på ditt abonnement fra \"Cancelled\" til \"Active\".<br /><br />Med vennlig hilsen dine venner i Mattevideo.",
+		"reactivate_email": "Hei, og tusen takk for at du ønsker å reaktivere din bruker hos Mattevideo!<br /><br />Denne mailen bekrefter at ditt abonnement nå er reaktivert. Vi håper du får glede av vår videolæring, og ønsker deg velkommen tilbake!<br /><br />Med vennlig hilsen dine venner i Mattevideo."
+	}
+}

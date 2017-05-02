@@ -1,0 +1,180 @@
+.subscriptions_box{
+	padding: 5px;
+	margin: 5px 0 0;
+	cursor: inherit;
+}
+
+ul.active{
+	background: #d5f39c
+}
+
+ul.cancelled{
+	background: #ffe39d
+}
+
+
+.subscriptions_box:hover{
+	//background: #aea;
+	//height: 100px;
+}
+
+.subscriptions_box p{
+	margin: 0 0 0 7px;
+	font-weight: bold;
+	font-size: 11px;
+}
+/**/
+
+
+
+.subscriptions_box .var_box{
+	float:left;
+	padding:0 14px;
+	margin: 0 0px 0;
+}
+
+.subscriptions_box h4{
+	color: #21759B;
+	font-size: 10px;
+	font-weight: bold;
+	margin: 0;
+}
+
+.subscriptions_box .user-data{
+	overflow: hidden;
+	margin: 0 0 0 5px;
+}
+
+.subscriptions_box label{
+	width:200px;
+	display: block;
+	float: left;
+	font-weight: bold;
+	line-height: 28px;
+}
+
+.more_info{
+
+	clear: both;
+	border-radius: 7px;
+	padding: 6px 7px 3px;
+	margin: 0 0 7px;
+	background: rgba(50,50,50,0.1);
+	display: block;
+}
+
+.more_info label{
+	display: block;
+}
+
+.log_items{
+	padding: 7px;
+	border-radius: 7px;
+}
+
+ul.payment_box{
+	background: white;
+	border-radius: 5px;
+	padding: 3px 0;
+}
+
+li.payment_box{
+	margin:0;
+	padding:0 6px;
+	width:auto;
+	overflow: hidden;
+}
+
+
+.payment_box.OK{
+}
+.payment_box.Failed{
+	border: 2px solid tomato;
+
+}
+
+.payment_box div{
+	float: left;
+	width: 200px;
+}
+
+.payment_box label{
+	display: block;
+	line-height: 16px;
+}
+
+.payment_box p{
+	margin: 0;
+	font-weight: bold;
+	
+}
+
+.right_box{
+	float:right;
+}
+
+.phone_number_input_box{
+	height:50px;
+}
+
+#phone_input,
+#phone_submit{
+	float: left;
+}
+#phone_submit{
+	margin: 0 0 0 20px;
+}
+#phone_input input{
+	width: 197px;
+	padding: 5px;
+	height: 29px;
+	font-size: 20px;
+	border: 0;
+	border-radius: 3px;
+	background: #eee;
+}
+
+#phone_input span{
+	color: tomato;
+}
+
+
+#start-her{
+/*
+	margin: 40px 0 0 0;
+	background: url('sikker.png') no-repeat 560px 70px white;
+	padding: 5px 43px;
+	border-radius: 7px;
+	
+*/
+	float: left;
+	margin: 0 20px;
+	width: 500px;
+	position: relative;
+}
+
+#start-her .start-her-content{
+	width:425px;
+	margin: 0 auto;
+}
+
+#start-her .start-her-content h3{
+	text-align: center;
+	color:#535353;
+	margin: 0 0 20px; 
+}
+
+#start-her .start-her-content li{
+	margin: 0 0 10px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
